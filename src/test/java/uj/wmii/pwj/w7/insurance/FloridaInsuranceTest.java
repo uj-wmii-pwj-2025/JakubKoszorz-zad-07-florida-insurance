@@ -19,7 +19,7 @@ class FloridaInsuranceTest {
     final static String TIV_2012 = "tiv2012.txt";
 
     @BeforeAll
-    public static void testAll() {
+    public static void testAll() throws IOException {
         FloridaInsurance.main(new String[0]);
     }
 
